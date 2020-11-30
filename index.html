@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Revolut NavBar</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-  <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
   <body>
     <!-- HEADER -->
@@ -27,19 +27,45 @@
           <!-- navbar-collapse -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav nav-bar_left">
-              <li><a href="#">Personale</a></li>
+              <li><a class="color_black" href="#">Personale</a></li>
               <li><a href="#">Business</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Tariffazione</a></li>
-              <li><a href="#">Conti</a></li>
-              <li><a href="#">Prodotti</a></li>
-              <li><a href="#">Azienda</a></li>
-              <li><a href="#">Aiuto</a></li>
-              <li><a href="#">IT <i class="glyphicon glyphicon-menu-down"></i></a></li>
+              <li class="has-dropdown">
+                  <a class="tariffazione" href="#">Tariffazione</a>
+              </li>
+              <li class="has-dropdown">
+                  <a class="Conti" href="#">Conti</a>
+              </li>
+              <li class="has-dropdown">
+                  <a class="Prodotti" href="#">Prodotti</a>
+              </li>
+              <li class="has-dropdown">
+                <a href="#">Azienda</a>
+                <ul class="dropdown">
+                    <li>Centro Assistenza</li>
+                    <li>Community</li>
+                    <li>Sicurezza</li>
+                    <li>Stato di sistema</li>
+                    <li>API Sviluppatore</li>
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="#">Aiuto</a>
+                <ul class="dropdown">
+                    <li>Centro Assistenza</li>
+                    <li>Community</li>
+                    <li>Sicurezza</li>
+                    <li>Stato di sistema</li>
+                    <li>API Sviluppatore</li>
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                  <a href="#">IT <i class="glyphicon glyphicon-menu-down"></i></a>
+              </li>
               <li>
-                <a class="btn btn-default" href="#" role="button">Scarica l'APP</a>
+                <a class="btn btn-default" href="#" role="button">Scarica l'app</a>
               </li>
             </ul>
           </div>
@@ -47,3 +73,8 @@
         </div>
         <!-- /.container -->
       </nav>
+      <!-- /NAVBAR -->
+    </header>
+    <script src="assets/js/main.js"></script>
+ </body>
+</html>
