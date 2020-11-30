@@ -54,4 +54,11 @@ li ul.dropdown{
   display: none;
 }
 
+.dropdown{
+  list-style: none;
+}
+.dropdown li > a{
+  text-decoration: none;
+}
+
 /* /NAVBAR */
