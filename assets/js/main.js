@@ -1,7 +1,4 @@
-$(document).ready(function () {
-
-    var dropDown = $(".dropdown");
-    
+$(document).ready(function () {    
     $(".has-dropdown").mouseover(function() {
         if($(".dropdown").hide()){
         $(".dropdown",this).show();
