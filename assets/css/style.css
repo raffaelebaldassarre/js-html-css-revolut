@@ -50,7 +50,7 @@ a.btn.btn-default{
 }
 
 /*Menu a tendina*/
-ul.nav.navbar-nav.navbar-right li ul{
+li ul.dropdown{
   display: none;
 }
 
